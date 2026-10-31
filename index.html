@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My glassmorphic form using only html and css</title>
+    <script src="https://kit.fontawesome.com/319865f01d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+</head>
+<body>
+    <form action="POST" class="login-form">
+        <h1 class="login-title">Login</h1>
+
+        <div class="input-box">
+            <i class="fa-solid fa-users"></i>
+            <input type="text" name="username" id="username" placeholder="Username">
+        </div>
+
+        <div class="input-box">
+            <i class="fa-solid fa-user-lock"></i>
+            <input type="pasword" name="password" id="password" placeholder="Password">
+        </div>
+
+        <div class="remember-forgot-box">
+            <label for="remember">
+                <input type="text" name="remember" id="remember">
+                Remember me
+            </label>
+            <a href="#">Forgot password?</a>
+        </div>
+
+        <button class="login-btn">
+            Dont't you have an account? 
+            <a href="#">Register</a>
+        </button>
+    </form>
+</body>
+</html>
